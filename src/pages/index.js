@@ -1,10 +1,10 @@
 import React from 'react'
-import { Layout } from '../components'
+import { ImagenHotel, Layout } from '../components'
 
 const IndexPage = () => {
 	return (
 		<Layout>	
-			<h1>Hotel Gastby</h1>
+			<ImagenHotel />
 		</Layout>
 	)
 }

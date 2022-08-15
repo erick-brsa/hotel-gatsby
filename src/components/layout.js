@@ -14,9 +14,9 @@ export const Layout = ({ children }) => {
                         font-size: 62.5%;
                     }
                     body {
-                        font-size: 16px;
-                        font-size: 1.6rem;
+                        font-size: 1.8rem;
                         line-height: 1.5;
+                        font-family: 'PT Sans', sans-serif;
                     }
                     
                     h1, h2, h3 {
@@ -36,6 +36,9 @@ export const Layout = ({ children }) => {
                         margin: 0;
                         padding: 0;
                     }
+                    a {                    
+                        text-decoration: none;
+                    }
                 `}
             />
             <Helmet>
@@ -50,7 +53,7 @@ export const Layout = ({ children }) => {
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
                 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
-                <title>Gatsby Hotel</title>
+                <title>Hotel Gatsby</title>
             </Helmet>
 
             <Header />
