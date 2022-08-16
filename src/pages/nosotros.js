@@ -1,12 +1,12 @@
 import React from 'react'
-import { Layout } from '../components'
+import { ContenidoNosotros, Layout } from '../components'
 
 const AboutPage = () => {
-  return (
-    <Layout>     
-        <div>AboutPage</div>
-    </Layout>
-  )
+  	return (
+		<Layout>     
+		<ContenidoNosotros />
+		</Layout>
+  	)
 }
 
 export default AboutPage
